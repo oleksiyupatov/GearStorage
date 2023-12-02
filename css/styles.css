@@ -10893,8 +10893,9 @@ section {
  * Last Build: Tue Nov 14 2017 12:40:57
  */
 .device-wrapper {
-  max-width: 300px;
+  max-width: 330px;
   width: 100%;
+  z-index: 1;
 }
 
 .device {
@@ -11006,7 +11007,7 @@ section.cta:before {
   left: 10%;
 }
 .features-device-mockup .device-wrapper {
-  max-width: 10rem;
+  max-width: 15rem;
 }
 
 @media (min-width: 576px) {
@@ -11016,7 +11017,7 @@ section.cta:before {
     left: auto;
   }
   .features-device-mockup .device-wrapper {
-    max-width: 12.5rem;
+    max-width: 17.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -11025,7 +11026,7 @@ section.cta:before {
     left: auto;
   }
   .features-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 992px) {
@@ -11042,7 +11043,7 @@ section.cta:before {
     left: -10%;
   }
   .features-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
     margin-left: auto;
   }
 }
@@ -11056,7 +11057,7 @@ section.cta:before {
     left: 10%;
   }
   .features-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 1400px) {
@@ -11065,7 +11066,7 @@ section.cta:before {
     left: 0;
   }
   .features-device-mockup .device-wrapper {
-    max-width: 17rem;
+    max-width: 22rem;
   }
 }
 footer a {
@@ -11118,7 +11119,7 @@ footer a:hover, footer a:active, footer a:focus {
   right: 10%;
 }
 .masthead .masthead-device-mockup .device-wrapper {
-  max-width: 10rem;
+  max-width: 15rem;
 }
 @media (min-width: 576px) {
   .masthead .masthead-device-mockup .circle {
@@ -11126,7 +11127,7 @@ footer a:hover, footer a:active, footer a:focus {
     display: block;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 12.5rem;
+    max-width: 17.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -11134,7 +11135,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 60%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 992px) {
@@ -11142,7 +11143,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 90%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 1200px) {
@@ -11150,7 +11151,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 75%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 15rem;
+    max-width: 20rem;
   }
 }
 @media (min-width: 1400px) {
@@ -11158,7 +11159,7 @@ footer a:hover, footer a:active, footer a:focus {
     width: 70%;
   }
   .masthead .masthead-device-mockup .device-wrapper {
-    max-width: 17rem;
+    max-width: 22rem;
   }
 }
 .contact-section-bg {
@@ -11181,6 +11182,8 @@ aside.phrase {
 .small-title {
   font-size: 0.7em;
   color: cadetblue;
+  line-height: 0.8 !important;
+  margin-top: 1rem;
 }
 .device-wrapper-custom {
   max-width: 330px;
