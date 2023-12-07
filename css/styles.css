@@ -11529,3 +11529,7 @@ aside.phrase {
 .donation-section {
   background-image: url("../assets/img/bg-masthead.jpg");
 }
+.feature-item-caption img:hover {
+    cursor: zoom-in;
+    opacity: 0.5;
+}
